@@ -9,6 +9,7 @@ const authRoutes = require("./routes/auth.routes");
 const bookRoutes = require("./routes/book.routes");
 const membershipRoutes = require("./routes/membership.routes");
 const transactionRoutes = require("./routes/transaction.routes");
+const userRoutes = require("./routes/user.routes");
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/books", bookRoutes);
 app.use("/api/memberships", membershipRoutes);
 app.use("/api/transactions", transactionRoutes);
+app.use("/api/users", userRoutes);
 
 // Health Check
 app.get("/", (req, res) => {
