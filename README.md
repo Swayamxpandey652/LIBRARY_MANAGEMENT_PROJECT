@@ -21,7 +21,7 @@ A full-stack Library Management System built with **React (Vite)** for the front
 
 ### Technical Features
 - Frontend: React + Tailwind CSS + Vite
-- Backend: Node.js + Express + MySQL
+- Backend: Node.js + Express + MONGODB
 - JWT-based authentication and role management
 - Context API for state management
 - Responsive and modular UI
