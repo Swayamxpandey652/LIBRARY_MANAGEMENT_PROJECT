@@ -1,6 +1,6 @@
 # Library Management System
 
-A full-stack Library Management System built with **React (Vite)** for the frontend, **Node.js/Express** for the backend, and **MySQL** for the database. This project allows users to search, issue, and return books, and provides an admin panel for managing books, memberships, and users.
+A full-stack Library Management System built with **React (Vite)** for the frontend, **Node.js/Express** for the backend, and **MongoDB** for the database. This project allows users to search, issue, and return books, and provides an admin panel for managing books, memberships, and users.
 
 ---
 
